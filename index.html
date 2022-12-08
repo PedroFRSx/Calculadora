@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/43f22c0356.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+        <p id="resultado"></p>
+
+
+        <table>
+            <tr>
+
+                <td><button class="btn c" style="width: 106px;" onclick="limpar('')">C</button></td>
+                <td><button class="btn dif" onclick="apagar('')"><i class="fa-solid fa-delete-left"></i></button></td>
+                <td><button class="btn dif" onclick="escrever('/')"><i class="fa-solid fa-divide"></i></button></td>
+
+
+            </tr>
+
+        </table>
+
+        <table>
+            <tr>
+
+                <td><button class="btn" onclick="escrever('7')">7</button></td>
+                <td><button class="btn" onclick="escrever('8')">8</button></td>
+                <td><button class="btn" onclick="escrever('9')">9</button></td>
+                <td><button class="btn dif" onclick="escrever('*')"><i class="fa-solid fa-xmark"></i></button></td>
+
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+
+                <td><button class="btn" onclick="escrever('4')">4</button></td>
+                <td><button class="btn" onclick="escrever('5')">5</button></td>
+                <td><button class="btn" onclick="escrever('6')">6</button></td>
+                <td><button class="btn dif" onclick="escrever('+')">+</button></td>
+
+
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+
+                <td><button class="btn" onclick="escrever('1')">1</button></td>
+                <td><button class="btn" onclick="escrever('2')">2</button></td>
+                <td><button class="btn" onclick="escrever('3')">3</button></td>
+                <td><button class="btn dif" onclick="escrever('-')">-</button></td>
+
+
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button class="btn" style="width: 106px;" onclick="escrever('0')">0</button></td>
+                <td><button class="btn dif" onclick="escrever('.')">.</button></td>
+                <td><button class="btn dif" onclick="resultado('')">=</button></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
