@@ -1,2 +1,2 @@
 # Calculadora
-Trabalho de HTML+CSS+JS
+Calculadora para aprender HTML+CSS+JS
